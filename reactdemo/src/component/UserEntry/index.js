@@ -1,9 +1,9 @@
 import { Form, Button, Row, Col } from "react-bootstrap"
 import { useEffect, useState } from 'react';
 import { Table, Space } from "antd";
-import "./UserEntery.css";
 import { connect } from "react-redux"
 import { createAction, DeleteAction, EditAction, GetAction } from "../../redux/action/UserAction";
+import "./UserEntery.css";
 
 
 export const sortArray = (a, b, keyword) => {
